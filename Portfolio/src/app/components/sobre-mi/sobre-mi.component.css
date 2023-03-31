@@ -1,0 +1,33 @@
+.row {
+    padding: 1vw;
+}
+
+
+.nombre h1{
+    font-size: 3vw;
+    margin-top: 25%;
+    margin-left: 250px;
+    font-weight: bold;
+    color: #563383;
+}
+
+.nombre p{
+    font-size: 1.3vw;
+    margin-top: 4%;
+    margin-left: 250px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.sobre-mi h1{
+        font-size: 3vw;
+        margin-top: 16.6%;
+        font-weight: bold;
+        color: #563383;
+}
+
+.sobre-mi p{
+    font-size: 1.3vw;
+    margin-top: 2%;
+    font-weight: bold;
+}
