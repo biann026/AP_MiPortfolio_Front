@@ -22,37 +22,67 @@
 }
 
 @media (min-width:576px){
-    .row {
+    .info {
         padding: 1vw;
     }
     .nombre h1{
         font-size: 3vw;
-        top: 145%;
-        left: 3%;
+        top: 122%;
+        left: 50%;
         position: absolute;
     }
     .nombre p{
         font-size: 1.3vw;
-        margin-top: 14%;
-        left: 6%;
+        margin-top: 4%;
         position: absolute;
-        margin-top: 14%;
-        left: 6%;
+        left: 50%;
     }
     .sobre-mi h1{
         font-size: 3vw;
         position: absolute;
-        margin-top: 5%;
-        right: 45%;
+        margin-top: 11%;
+        left: 43%;
         }
     .sobre-mi p{
         font-size: 1.3vw;
         position: absolute;
-        margin-top: 10%;
-        left: 42%;
-        right: 15%;
+        margin-top: 15%;
+        left: 25%;
+        right: 25%;
+        text-align: center;
         }
         
 }
 
-@media (max-width:575px){}
+@media (max-width:575px){
+    .info{
+        padding: 1%;
+    }
+    .nombre h1{
+        font-size: 6vw;
+        position: absolute;
+        left: 30%;
+        top: 100%;
+    }
+    .nombre p{
+        font-size: 3vw;
+        position: absolute;
+        left: 35%;
+        top: 107%;
+        text-align: center;
+    }
+    .sobre-mi h1{
+        position: absolute;
+        font-size: 5vw;
+        margin-top: 60%;
+        left: 40%;
+    }
+    .sobre-mi p{
+        position: absolute;
+        font-size: 3vw;
+        margin-top: 68%;
+        left: 3%;
+        right: 3%;
+        text-align: center;
+    }
+}
