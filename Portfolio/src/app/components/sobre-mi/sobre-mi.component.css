@@ -1,33 +1,58 @@
-.row {
-    padding: 1vw;
-}
-
 
 .nombre h1{
-    font-size: 3vw;
-    margin-top: 25%;
-    margin-left: 250px;
-    font-weight: bold;
     color: #563383;
+    font-weight: bold;
 }
 
+
 .nombre p{
-    font-size: 1.3vw;
-    margin-top: 4%;
-    margin-left: 250px;
     font-weight: bold;
     font-style: italic;
 }
 
+
 .sobre-mi h1{
-        font-size: 3vw;
-        margin-top: 16.6%;
-        font-weight: bold;
+    font-weight: bold;
         color: #563383;
 }
 
+
 .sobre-mi p{
-    font-size: 1.3vw;
-    margin-top: 2%;
     font-weight: bold;
 }
+
+@media (min-width:576px){
+    .row {
+        padding: 1vw;
+    }
+    .nombre h1{
+        font-size: 3vw;
+        top: 145%;
+        left: 3%;
+        position: absolute;
+    }
+    .nombre p{
+        font-size: 1.3vw;
+        margin-top: 14%;
+        left: 6%;
+        position: absolute;
+        margin-top: 14%;
+        left: 6%;
+    }
+    .sobre-mi h1{
+        font-size: 3vw;
+        position: absolute;
+        margin-top: 5%;
+        right: 45%;
+        }
+    .sobre-mi p{
+        font-size: 1.3vw;
+        position: absolute;
+        margin-top: 10%;
+        left: 42%;
+        right: 15%;
+        }
+        
+}
+
+@media (max-width:575px){}

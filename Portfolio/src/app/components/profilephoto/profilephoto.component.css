@@ -1,0 +1,10 @@
+@media (min-width:576px){
+    #profilePhoto{
+        position: absolute;
+        width: 17%;
+        box-shadow: 15px 15px 15px grey;
+        border-radius: 100%;
+        left: 5%;
+        top: 105%;
+    } 
+}

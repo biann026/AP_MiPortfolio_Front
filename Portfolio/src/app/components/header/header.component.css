@@ -1,7 +1,42 @@
-div{
+.row{
     background-color: #C59DF9; 
 }
-app-redes{
-    float:right;
-    margin-top: 35px;
+
+
+@media (min-width:576px) {
+    .logo{
+        width: 200px;
+        float: left;
+    }
 }
+
+@media (max-width:575px){
+    .logo{
+        width: 200px;
+        float: left;
+    }
+}
+
+@media (min-width:576px) {
+    .redes img{
+        width: 60px;
+        float: right;
+    }
+    .redes {
+        position: absolute;
+        left: 50%;
+        top: 2.5%;
+    }
+    }
+    
+    @media (max-width:575px) {
+        .redes img{
+            width: 60px;
+            float: right;
+        }
+        .redes {
+            position: absolute;
+            top: 3.5%;
+        }
+    }
+    
