@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
-import { ProfilephotoComponent } from './components/profilephoto/profilephoto.component';
+import { PersonaComponent } from './components/persona/persona.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { ProfilephotoComponent } from './components/profilephoto/profilephoto.co
     HeaderComponent,
     BannerComponent,
     SobreMiComponent,
-    ProfilephotoComponent,
+    PersonaComponent,
   ],
   imports: [
     BrowserModule,
