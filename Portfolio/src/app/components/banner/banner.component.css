@@ -22,7 +22,7 @@
 .banner p{
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3.5vw;
@@ -40,14 +40,14 @@
     
    .banner img{
     width: 100%;
-    height: 500px;
+    height: 90%;
     }
 
     .banner p {
         text-align: center;
         position: absolute;
-        font-size: 6vw;
-        top: 50%;
+        font-size: 7.5vw;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
