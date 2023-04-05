@@ -31,22 +31,22 @@
 
 @media (min-width:576px){
     .experiencia h1{
-        font-size: 2.3vw;
+        font-size: 2vw;
     }
     .trabajos h1{
-        font-size: 1.8vw;
+        font-size: 1.5vw;
     }
     .trabajos h2{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     .trabajos h3{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     .trabajos h6{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     .trabajos p{
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
 }
 

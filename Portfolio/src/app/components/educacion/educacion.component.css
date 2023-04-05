@@ -1,6 +1,5 @@
 .row {
     background-color: #dec8fb;
-    padding-top: 3%;
     padding-bottom: 1%;
     padding-left: 5%;
     padding-right: 5%;
@@ -31,22 +30,22 @@
 
 @media (min-width:576px){
     .educacion h1{
-        font-size: 2.3vw;
+        font-size: 2vw;
     }
     .instituciones h1{
-        font-size: 1.8vw;
+        font-size: 1.5vw;
     }
     .instituciones h2{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     .instituciones h3{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     .instituciones h6{
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
     .instituciones p{
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
 }
 
